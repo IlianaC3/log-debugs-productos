@@ -1,0 +1,30 @@
+<%- include('layouts/header') -%>
+<div id="accionIngresar" class="row">
+    <h3 class="col-sm-12">Ingresar nuevo producto</h3>
+    <div class="row">
+        <div class="col-sm-6"><a href="/">Regresar</a></div>
+    </div>
+    <form>
+        <div class="row">
+            <div class="col">
+                <input class="form-control" type="text" name="title" id="title"
+                    placeholder="Ingrese nombre del producto">
+            </div>
+            <div class="col">
+                <input class="form-control" type="number" name="price" id="price"
+                    placeholder="Ingrese precio del producto">
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col">
+                <input class="form-control" type="url" name="thumbnail" id="thumbnail"
+                    placeholder="Ingrese imagen del producto">
+            </div>
+            <div class="col">
+                <input class="btn btn-primary col-sm-4" type="button" value="Enviar" onclick="EnviarDatos()">
+            </div>
+        </div>
+    </form>
+</div>
+<%- include('layouts/footer') -%>

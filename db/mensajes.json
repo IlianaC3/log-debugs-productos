@@ -1,0 +1,20 @@
+[{
+  "_id": {
+    "$oid": "62d611b86b243c3fc63a454a"
+  },
+  "text": "Hola",
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1658196408541"
+    }
+  },
+  "autor": {
+    "id": "ilianagparis@gmail.com",
+    "nombre": "Iliana",
+    "apellido": "Paris",
+    "edad": "29",
+    "avatar": "https://www.pngkit.com/png/full/115-1150342_user-avatar-icon-iconos-de-mujeres-a-color.png",
+    "alias": "IGab"
+  },
+  "__v": 0
+}]

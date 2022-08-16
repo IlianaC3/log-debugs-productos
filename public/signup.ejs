@@ -1,0 +1,25 @@
+<%- include('layouts/header') -%>
+
+<div id="accionRegistro" class="row">
+    <h3 class="col-sm-12">Registrarse</h3>
+    <form action="/signup" method="POST">
+        <div class="row">
+            <div class="col">
+                <input class="form-control" type="email" name="username" id="emailPerson"
+                    placeholder="Ingresa tu email!" required>
+                <input class="form-control" type="password" name="password" id="passwordPerson"
+                    placeholder="Ingresa tu password!" required>
+            </div>
+            <div class="col">
+                <input class="btn btn-primary col-sm-4" type="submit" value="Registrarse">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <a href="/login">Iniciar Sesión</a>
+            </div>
+        </div>
+    </form>
+</div>
+
+<%- include('layouts/footer') -%>

@@ -1,0 +1,27 @@
+<%- include('layouts/header') -%>
+
+<h5><a href="/">Regresar</a></h5>
+
+<div class="container scroll-y">
+    <h3>Lista de productos FAKER</h3>
+    <table class="table table-bordered table-striped" id="resultFaker">
+        <thead>
+            <th>Id</th>
+            <th>Producto</th>
+            <th>Precio</th>
+            <th>Imagen</th>
+        </thead>
+        <tbody id="listProductosFaker">
+            <% data.forEach(function(unique) { %>
+            <tr>
+                <td><%= unique.id %></td>
+                <td><%= unique.title %></td>
+                <td><%= unique.price %></td>
+                <td><img src="<%= unique.thumbnail %>" style="width: 25%" />
+            </tr>
+            <% }); %>
+        </tbody>
+    </table>
+</div>
+
+<%- include('layouts/footer') -%>

@@ -1,0 +1,9 @@
+[{
+  "_id": {
+    "$oid": "62d60c9991e0f56ed3851238"
+  },
+  "email": "iliana@carpetres.cl",
+  "nombre": "Iliana Paris",
+  "password": "$2b$10$iK4c7YqbY43OZryvw9OARuLW4fKmoDnrlomUguXMNFandiuISgokm",
+  "__v": 0
+}]
